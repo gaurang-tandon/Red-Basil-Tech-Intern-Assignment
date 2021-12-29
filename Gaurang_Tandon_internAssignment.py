@@ -4,7 +4,7 @@
 while True:
     # To check if the input contains only numeric characters
     try:
-        # Taking input and reading it as integer value as asked in the assignment
+        # Taking input and reading it as integer value rather than string as asked in the assignment
         my_input = int(input(f"Binary Input :\t\t"))
     # If the input contains any aplhabetical character it will be caught as an exception
     # and the loop will continue to its next iteration i.e. waiting for another input
